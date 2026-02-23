@@ -1,0 +1,300 @@
+{
+  "common": {
+    "appName": "DevKul Matrimony",
+    "tagline": "Find Your Perfect Match",
+    "language": "English",
+    "loginBtn": "Login",
+    "registerBtn": "Join Free",
+    "logoutBtn": "Logout",
+    "settings": "Settings",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "browseProfiles": "Browse Profiles",
+    "about": "About",
+    "contact": "Contact",
+    "search": "Search",
+    "filter": "Filter",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info"
+  },
+  "home": {
+    "hero": {
+      "title": "Find Your Perfect Match",
+      "subtitle": "Trusted by thousands of families to find meaningful relationships",
+      "ctaJoin": "Join for Free",
+      "ctaBrowse": "Browse Profiles",
+      "searchPlaceholder": "Search by name, city or interest...",
+      "searchBtn": "Search Profiles",
+      "learnMore": "Learn More"
+    },
+    "stats": {
+      "members": "Active Members",
+      "stories": "Success Stories",
+      "verified": "Verified",
+      "support": "Support"
+    },
+    "features": {
+      "title": "Why Choose Us",
+      "subtitle": "We provide a safe, reliable, and family-oriented platform for finding your life partner",
+      "verified": {
+        "title": "100% Verified Profiles",
+        "desc": "All profiles are manually verified for authenticity"
+      },
+      "trusted": {
+        "title": "Personalized Matching",
+        "desc": "Smart algorithm matches based on preferences"
+      },
+      "privacy": {
+        "title": "Privacy Protected",
+        "desc": "Your data is secure and private"
+      },
+      "support": {
+        "title": "Family Values",
+        "desc": "Focus on traditional family values"
+      }
+    },
+    "search": {
+      "age": "Age",
+      "religion": "Religion",
+      "location": "Location",
+      "hindu": "Hindu",
+      "muslim": "Muslim",
+      "christian": "Christian",
+      "other": "Other",
+      "chennai": "Chennai",
+      "mumbai": "Mumbai",
+      "delhi": "Delhi",
+      "bangalore": "Bangalore"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Simple steps to find your perfect match",
+      "step1": {
+        "title": "Register Free",
+        "desc": "Create your profile in minutes with basic details"
+      },
+      "step2": {
+        "title": "Find Matches",
+        "desc": "Browse verified profiles that match your preferences"
+      },
+      "step3": {
+        "title": "Connect",
+        "desc": "Connect with matches and start your journey together"
+      }
+    },
+    "stories": {
+      "title": "Success Stories",
+      "subtitle": "Real couples, real happiness",
+      "story1": {
+        "name": "Priya & Raj",
+        "desc": "We found each other through this amazing platform. Our families are very happy!"
+      },
+      "story2": {
+        "name": "Anjali & Vikram",
+        "desc": "The matchmaking was perfect. We're grateful for finding our life partner."
+      },
+      "story3": {
+        "name": "Meera & Arun",
+        "desc": "Professional, trustworthy, and family-oriented. Highly recommended!"
+      }
+    },
+    "cta": {
+      "title": "Ready to Find Your Life Partner?",
+      "subtitle": "Join thousands of happy couples who found their match through our platform",
+      "ctaJoin": "Get Started Free"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Login to your account",
+      "phone": "Phone Number",
+      "password": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot Password?",
+      "loginBtn": "Login",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up here",
+      "phoneError": "Please enter a valid phone number",
+      "passwordError": "Password is required",
+      "loginSuccess": "Login successful",
+      "loginError": "Invalid credentials"
+    },
+    "register": {
+      "title": "Create Your Profile",
+      "subtitle": "Join our community",
+      "fullName": "Full Name",
+      "phone": "Phone Number",
+      "email": "Email (Optional)",
+      "dateOfBirth": "Date of Birth",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "agree": "I agree to Terms & Conditions",
+      "registerBtn": "Create Account",
+      "haveAccount": "Already have an account?",
+      "login": "Login here",
+      "passwordMismatch": "Passwords do not match",
+      "registerSuccess": "Registration successful",
+      "registerError": "Registration failed",
+      "nameError": "Please enter your full name",
+      "phoneError": "Please enter a valid phone number",
+      "dobError": "Please select your date of birth",
+      "passwordError": "Password must be at least 6 characters",
+      "agreeError": "Please agree to terms and conditions",
+      "verificationNote": "Your profile will be reviewed by our admin team before approval. We verify all profiles to ensure safety and authenticity."
+    },
+    "otp": {
+      "title": "Verify Your Phone",
+      "subtitle": "Enter the OTP sent to your phone",
+      "enterOtp": "Enter 6-digit OTP",
+      "verifyBtn": "Verify OTP",
+      "resendBtn": "Resend OTP",
+      "otpSent": "OTP sent successfully",
+      "otpError": "Invalid OTP",
+      "resendError": "Please wait before requesting new OTP",
+      "expiry": "OTP expires in 10 minutes"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "profileViews": "Profile Views",
+    "interestsReceived": "Interests Received",
+    "messages": "Messages",
+    "matches": "Matches",
+    "recentActivity": "Recent Activity",
+    "matchSuggestions": "Match Suggestions",
+    "noActivity": "No recent activity",
+    "completeProfile": "Complete your profile to get better matches"
+  },
+  "profile": {
+    "myProfile": "My Profile",
+    "editProfile": "Edit Profile",
+    "profileCompletion": "Profile Completion",
+    "fullName": "Full Name",
+    "age": "Age",
+    "years": "yrs",
+    "gender": "Gender",
+    "height": "Height",
+    "weight": "Weight",
+    "maritalStatus": "Marital Status",
+    "religion": "Religion",
+    "caste": "Caste",
+    "education": "Education",
+    "occupation": "Occupation",
+    "income": "Annual Income",
+    "company": "Company",
+    "at": "at",
+    "location": "Location",
+    "aboutMe": "About Me",
+    "about": "About",
+    "family": "Family",
+    "horoscope": "Horoscope",
+    "partnerPreferences": "Partner Preferences",
+    "basicDetails": "Basic Details",
+    "professionalDetails": "Professional Details",
+    "motherTongue": "Mother Tongue",
+    "diet": "Diet",
+    "hobbiesInterests": "Hobbies & Interests",
+    "languagesKnown": "Languages Known",
+    "uploadPhoto": "Upload Photo",
+    "updateProfile": "Update Profile",
+    "viewProfile": "View Profile",
+    "noProfiles": "No profiles found",
+    "verified": "Verified",
+    "premium": "Premium",
+    "browseProfiles": "Browse Profiles",
+    "findMatch": "Find your perfect match from verified profiles",
+    "showing": "Showing",
+    "profiles": "profiles",
+    "loadMore": "Load More Profiles"
+  },
+  "interests": {
+    "title": "Interests",
+    "sent": "Sent Interests",
+    "received": "Received Interests",
+    "sendInterest": "Send Interest",
+    "acceptInterest": "Accept Interest",
+    "rejectInterest": "Reject Interest",
+    "cancelInterest": "Cancel Interest",
+    "interestMessage": "Add a message",
+    "noInterests": "No interests yet",
+    "interestSent": "Interest sent successfully",
+    "interestAccepted": "Interest accepted",
+    "interestRejected": "Interest rejected"
+  },
+  "search": {
+    "filters": "Filters",
+    "lookingFor": "Looking for",
+    "ageRange": "Age Range",
+    "location": "Location",
+    "education": "Education",
+    "applyFilters": "Apply Filters",
+    "clearFilters": "Clear Filters"
+  },
+  "messages": {
+    "title": "Messages",
+    "inbox": "Inbox",
+    "sendMessage": "Send a message",
+    "typeMessage": "Type your message...",
+    "send": "Send",
+    "noMessages": "No messages yet",
+    "startConversation": "Start a conversation"
+  },
+  "saved": {
+    "title": "Saved Profiles",
+    "noSaved": "No saved profiles yet",
+    "remove": "Remove",
+    "contact": "Contact"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "users": "Total Users",
+    "pendingApprovals": "Pending Approvals",
+    "approvedProfiles": "Approved Profiles",
+    "blockedUsers": "Blocked Users",
+    "manageUsers": "Manage Users",
+    "approveProfile": "Approve Profile",
+    "rejectProfile": "Reject Profile",
+    "blockUser": "Block User",
+    "unblockUser": "Unblock User",
+    "viewDetails": "View Details"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "unauthorized": "Unauthorized access",
+    "forbidden": "Access forbidden",
+    "serverError": "Server error occurred",
+    "networkError": "Network error",
+    "validationError": "Validation error",
+    "tryAgain": "Please try again"
+  },
+  "footer": {
+    "about": "About Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "contact": "Contact Us",
+    "followUs": "Follow Us",
+    "copyright": "All rights reserved",
+    "madewith": "Made with ❤️ for DevKul Community",
+    "quickLinks": "Quick Links",
+    "support": "Support",
+    "help": "Help Center",
+    "safety": "Safety Tips",
+    "faq": "FAQ",
+    "email": "support@dkvmatrimony.com",
+    "phone": "+91 98765 43210",
+    "address": "Tamil Nadu, India"
+  }
+}

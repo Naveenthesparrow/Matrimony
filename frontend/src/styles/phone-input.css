@@ -1,0 +1,89 @@
+/* Phone Input Styles */
+.phone-input-container {
+  width: 100%;
+}
+
+.phone-input {
+  width: 100% !important;
+  height: 56px !important;
+  padding-left: 60px !important;
+  border: 2px solid #e5e7eb !important;
+  border-radius: 12px !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  color: #111827 !important;
+  background-color: white !important;
+  transition: all 0.3s ease !important;
+}
+
+.phone-input:focus {
+  border-color: #7c3aed !important;
+  outline: none !important;
+  box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.1) !important;
+}
+
+.phone-input::placeholder {
+  color: #9ca3af !important;
+}
+
+.phone-button {
+  border: 2px solid #e5e7eb !important;
+  border-right: none !important;
+  border-radius: 12px 0 0 12px !important;
+  background-color: white !important;
+  height: 56px !important;
+  padding: 0 12px !important;
+  transition: all 0.3s ease !important;
+}
+
+.phone-button:hover {
+  background-color: #f9fafb !important;
+}
+
+.phone-dropdown {
+  border-radius: 12px !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+  border: 2px solid #e5e7eb !important;
+  max-height: 300px !important;
+}
+
+.phone-dropdown .search-box {
+  padding: 12px !important;
+  border-bottom: 1px solid #e5e7eb !important;
+}
+
+.phone-dropdown .search {
+  width: 100% !important;
+  padding: 10px 16px !important;
+  border: 2px solid #e5e7eb !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+}
+
+.phone-dropdown .search:focus {
+  border-color: #7c3aed !important;
+  outline: none !important;
+}
+
+.phone-dropdown .country-list {
+  max-height: 200px !important;
+  overflow-y: auto !important;
+}
+
+.phone-dropdown .country {
+  padding: 10px 16px !important;
+  font-size: 14px !important;
+  transition: background-color 0.2s ease !important;
+}
+
+.phone-dropdown .country:hover {
+  background-color: #f3f4f6 !important;
+}
+
+.phone-dropdown .country.highlight {
+  background-color: #ede9fe !important;
+}
+
+.phone-dropdown .flag {
+  margin-right: 12px !important;
+}

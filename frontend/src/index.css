@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&family=Noto+Sans+Tamil:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply scroll-smooth;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  body {
+    @apply bg-white text-gray-900 font-sans antialiased;
+    background: linear-gradient(135deg, #faf5ff 0%, #eff6ff 25%, #fdf4ff 50%, #fef3c7 75%, #faf5ff 100%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+
+  @keyframes gradient {
+
+    0%,
+    100% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+
+  /* Tamil language specific styles */
+  body.tamil-text {
+    font-family: 'Noto Sans Tamil', 'Inter', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+  }
+
+  body.tamil-text h1 {
+    font-family: 'Noto Sans Tamil', 'Poppins', sans-serif;
+    line-height: 1.3;
+    font-size: 0.9em;
+  }
+
+  body.tamil-text h2 {
+    font-family: 'Noto Sans Tamil', 'Poppins', sans-serif;
+    line-height: 1.3;
+    font-size: 0.92em;
+  }
+
+  body.tamil-text h3,
+  body.tamil-text h4,
+  body.tamil-text h5,
+  body.tamil-text h6 {
+    font-family: 'Noto Sans Tamil', 'Poppins', sans-serif;
+    line-height: 1.3;
+    font-size: 0.95em;
+  }
+
+  body.tamil-text p,
+  body.tamil-text span,
+  body.tamil-text a,
+  body.tamil-text label {
+    font-family: 'Noto Sans Tamil', 'Inter', sans-serif;
+    font-size: 0.95em;
+  }
+
+  body.tamil-text button {
+    font-family: 'Noto Sans Tamil', 'Inter', sans-serif;
+    font-size: 0.92em;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+  }
+
+  body.tamil-text input,
+  body.tamil-text textarea,
+  body.tamil-text select {
+    font-family: 'Noto Sans Tamil', 'Inter', sans-serif;
+    font-size: 0.95em;
+  }
+
+  /* English language specific styles */
+  body.english-text {
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display font-bold tracking-tight;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  a {
+    @apply transition-colors duration-150;
+  }
+}
+
+@layer components {
+
+  /* Clean Scrollbar - Matrimony Theme */
+  ::-webkit-scrollbar {
+    @apply w-1.5;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gradient-to-b from-primary-400 to-primary-600 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply from-primary-500 to-primary-700;
+  }
+
+  /* Clean Cards */
+  .card-standard {
+    @apply relative rounded-2xl bg-white border border-gray-200 shadow-lg transition-all duration-150 hover:shadow-xl;
+  }
+
+  /* Gradient backgrounds - Matrimony Theme */
+  .gradient-primary {
+    @apply bg-gradient-to-r from-primary-600 to-primary-500;
+  }
+
+  .gradient-warm {
+    @apply bg-gradient-to-r from-secondary-500 to-secondary-600;
+  }
+
+  .gradient-soft {
+    @apply bg-gradient-to-br from-primary-50 to-secondary-50;
+  }
+
+  .gradient-trust {
+    @apply bg-gradient-to-r from-trust-500 to-trust-600;
+  }
+
+  .gradient-text-primary {
+    @apply bg-gradient-to-r from-primary-700 to-primary-500 bg-clip-text text-transparent;
+  }
+
+  .gradient-text-warm {
+    @apply bg-gradient-to-r from-secondary-600 to-secondary-400 bg-clip-text text-transparent;
+  }
+
+  /* Simple glass effect */
+  .glass {
+    @apply backdrop-blur-sm bg-white/90 border border-gray-200 rounded-2xl shadow-md;
+  }
+
+  /* Clean buttons */
+  .btn-primary {
+    @apply relative px-6 py-3 font-semibold text-white rounded-xl transition-all duration-150 active:scale-95 hover:shadow-lg;
+    background: linear-gradient(135deg, #f43f5e 0%, #e11d48 100%);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 font-semibold text-gray-700 rounded-xl transition-all duration-150 bg-white border-2 border-gray-200 hover:bg-gray-50 hover:shadow-md active:scale-95;
+  }
+
+  .btn-outline {
+    @apply px-6 py-3 font-semibold text-primary-600 rounded-xl border-2 border-primary-500 hover:bg-primary-500 hover:text-white transition-all duration-150 active:scale-95;
+  }
+
+  /* Hover effects */
+  .hover-lift {
+    @apply transition-all duration-150 hover:-translate-y-2 hover:shadow-xl;
+  }
+
+  /* Badge styles - Clean Theme */
+  .badge-primary {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-r from-primary-100 to-primary-200 text-primary-800 text-xs font-bold shadow-sm;
+  }
+
+  .badge-warm {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-r from-secondary-100 to-secondary-200 text-secondary-800 text-xs font-bold shadow-sm;
+  }
+
+  .badge-trust {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-r from-trust-100 to-trust-200 text-trust-800 text-xs font-bold shadow-sm;
+  }
+
+  /* Input focus effect */
+  .input-focus {
+    @apply focus:ring-4 focus:ring-primary-500/30 focus:border-primary-500 transition-all duration-150;
+  }
+
+  .input-primary {
+    @apply w-full px-5 py-3 rounded-xl border-2 border-gray-300 bg-white focus:outline-none focus:ring-4 focus:ring-primary-500/30 focus:border-primary-500 transition-all duration-150 placeholder:text-gray-400;
+  }
+
+  /* Simple divider */
+  .divider {
+    @apply h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent;
+  }
+
+  /* Container */
+  .container-main {
+    @apply mx-auto px-4 md:px-6 lg:px-8 max-w-7xl;
+  }
+
+  .container-royal {
+    @apply mx-auto px-6 md:px-8 lg:px-12 max-w-screen-2xl;
+  }
+
+  /* Banner styles */
+  .banner-royal {
+    @apply relative rounded-3xl overflow-hidden shadow-luxury;
+    background: linear-gradient(135deg, #1e3a8a 0%, #7e22ce 50%, #a855f7 100%);
+  }
+
+  .banner-royal::before {
+    content: '';
+    @apply absolute inset-0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  /* Trust indicators */
+  .trust-badge {
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-full bg-trust-500 text-white font-bold shadow-lg hover:shadow-xl transition-all duration-150;
+  }
+
+  .verified-badge {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-trust-500 to-trust-600 text-white text-sm font-bold shadow-md animate-glow-pulse;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .blur-xl-custom {
+    @apply backdrop-blur-xl;
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .transition-all {
+    transition: all 150ms ease-out;
+  }
+}
+
+/* Spinner loader */
+.spinner {
+  border: 3px solid rgba(168, 85, 247, 0.1);
+  border-top: 3px solid #a855f7;
+  border-right: 3px solid #ec4956;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Loading animations */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.shimmer-loading {
+  animation: shimmer 2s infinite;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 1000px 100%;
+}
+
+/* Fade in animation */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Custom animations */
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.2);
+  }
+
+  50% {
+    box-shadow: 0 0 30px rgba(139, 92, 246, 0.4);
+  }
+}

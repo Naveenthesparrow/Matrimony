@@ -1,0 +1,312 @@
+{
+  "common": {
+    "appName": "Devendra Kula Vellalar Matrimony",
+    "tagline": "Find Your Perfect Match",
+    "language": "English",
+    "loginBtn": "Login",
+    "registerBtn": "Join Free",
+    "logoutBtn": "Logout",
+    "settings": "Settings",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "browseProfiles": "Browse Profiles",
+    "about": "About",
+    "contact": "Contact",
+    "search": "Search",
+    "filter": "Filter",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info",
+    "viewAll": "View All",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "submit": "Submit",
+    "send": "Send",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or"
+  },
+  "home": {
+    "hero": {
+      "title": "Find Your Perfect Match",
+      "subtitle": "Trusted matrimony platform exclusively for the Devendra Kula Vellalar Community",
+      "ctaJoin": "Join for Free",
+      "ctaBrowse": "Browse Profiles",
+      "verifiedMembers": "10,000+ Verified Members",
+      "successStories": "5,000+ Success Stories",
+      "privacyProtected": "100% Privacy Protected"
+    },
+    "features": {
+      "title": "Why Choose Us?",
+      "subtitle": "We've built the most trusted matrimony platform for the DKV community",
+      "verified": {
+        "title": "100% Verified",
+        "desc": "All profiles verified for authenticity"
+      },
+      "trusted": {
+        "title": "Trusted Community",
+        "desc": "Exclusive for Devendra Kula Vellalar"
+      },
+      "smart": {
+        "title": "Smart Matching",
+        "desc": "AI-powered compatibility"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "desc": "Dedicated support team"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Simple steps to find your perfect match",
+      "step1": {
+        "title": "Create Profile",
+        "desc": "Sign up and create your detailed profile"
+      },
+      "step2": {
+        "title": "Get Verified",
+        "desc": "Complete verification for trust badge"
+      },
+      "step3": {
+        "title": "Connect",
+        "desc": "Browse and connect with matches"
+      },
+      "step4": {
+        "title": "Find Love",
+        "desc": "Meet your life partner"
+      }
+    },
+    "stats": {
+      "activeMembers": "Active Members",
+      "successStories": "Success Stories",
+      "verified": "Verified",
+      "support": "Support"
+    },
+    "cta": {
+      "title": "Ready to Find Love?",
+      "subtitle": "Join thousands of members who found their perfect match",
+      "button": "Get Started Today"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Login to your account",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "password": "Password",
+      "loginBtn": "Login",
+      "forgotPassword": "Forgot Password?",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up here",
+      "rememberMe": "Remember me"
+    },
+    "register": {
+      "title": "Create Your Profile",
+      "subtitle": "Join our trusted community",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "dateOfBirth": "Date of Birth",
+      "registerBtn": "Create Account",
+      "haveAccount": "Already have an account?",
+      "loginHere": "Login here",
+      "agreeTerms": "I agree to the Terms & Conditions"
+    },
+    "otp": {
+      "title": "Verify OTP",
+      "subtitle": "Enter the OTP sent to your phone",
+      "enterOtp": "Enter OTP",
+      "verifyBtn": "Verify",
+      "resendOtp": "Resend OTP",
+      "didntReceive": "Didn't receive the code?"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "recentMatches": "Recent Matches",
+    "profileViews": "Profile Views",
+    "interestsReceived": "Interests Received",
+    "interestsSent": "Interests Sent",
+    "messagesReceived": "Messages Received",
+    "quickActions": "Quick Actions",
+    "editProfile": "Edit Profile",
+    "viewMatches": "View Matches",
+    "upgradeNow": "Upgrade Now"
+  },
+  "profile": {
+    "myProfile": "My Profile",
+    "editProfile": "Edit Profile",
+    "viewProfile": "View Profile",
+    "basicInfo": "Basic Information",
+    "personalDetails": "Personal Details",
+    "familyDetails": "Family Details",
+    "educationCareer": "Education & Career",
+    "lifestyle": "Lifestyle",
+    "partnerPreferences": "Partner Preferences",
+    "photos": "Photos",
+    "uploadPhoto": "Upload Photo",
+    "profilePhoto": "Profile Photo",
+    "verificationStatus": "Verification Status",
+    "verified": "Verified",
+    "pending": "Pending",
+    "notVerified": "Not Verified",
+    "height": "Height",
+    "weight": "Weight",
+    "complexion": "Complexion",
+    "bloodGroup": "Blood Group",
+    "maritalStatus": "Marital Status",
+    "motherTongue": "Mother Tongue",
+    "religion": "Religion",
+    "caste": "Caste",
+    "subCaste": "Sub Caste",
+    "gotram": "Gotram",
+    "star": "Star",
+    "raasi": "Raasi",
+    "dosham": "Dosham",
+    "education": "Education",
+    "occupation": "Occupation",
+    "annualIncome": "Annual Income",
+    "workLocation": "Work Location",
+    "fatherName": "Father's Name",
+    "fatherOccupation": "Father's Occupation",
+    "motherName": "Mother's Name",
+    "motherOccupation": "Mother's Occupation",
+    "siblings": "Siblings",
+    "familyType": "Family Type",
+    "familyStatus": "Family Status",
+    "aboutMe": "About Me",
+    "hobbies": "Hobbies & Interests"
+  },
+  "interests": {
+    "title": "Interests",
+    "received": "Received",
+    "sent": "Sent",
+    "accepted": "Accepted",
+    "declined": "Declined",
+    "pending": "Pending",
+    "sendInterest": "Send Interest",
+    "acceptInterest": "Accept",
+    "declineInterest": "Decline",
+    "interestSent": "Interest Sent",
+    "noInterests": "No interests yet"
+  },
+  "messages": {
+    "title": "Messages",
+    "inbox": "Inbox",
+    "sent": "Sent",
+    "compose": "Compose",
+    "sendMessage": "Send Message",
+    "typeMessage": "Type your message...",
+    "noMessages": "No messages yet",
+    "reply": "Reply"
+  },
+  "saved": {
+    "title": "Saved Profiles",
+    "saveProfile": "Save Profile",
+    "unsave": "Remove",
+    "noSaved": "No saved profiles"
+  },
+  "search": {
+    "title": "Search Profiles",
+    "advancedSearch": "Advanced Search",
+    "ageFrom": "Age From",
+    "ageTo": "Age To",
+    "heightFrom": "Height From",
+    "heightTo": "Height To",
+    "location": "Location",
+    "education": "Education",
+    "occupation": "Occupation",
+    "maritalStatus": "Marital Status",
+    "searchBtn": "Search",
+    "resetFilters": "Reset Filters",
+    "resultsFound": "results found",
+    "noResults": "No profiles found matching your criteria"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "India's most trusted matrimony platform for the Devendra Kula Vellalar Community",
+    "mission": {
+      "title": "Our Mission",
+      "desc": "We are committed to making matrimony easier, safer, and more reliable for the Devendra Kula Vellalar Community."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "desc": "To be the most trusted and preferred matrimony platform for our community worldwide."
+    },
+    "values": {
+      "title": "Our Values",
+      "trust": "Trust & Transparency",
+      "privacy": "Privacy & Security",
+      "quality": "Quality Matches",
+      "support": "Dedicated Support"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have questions? We'd love to hear from you.",
+    "getInTouch": "Get In Touch",
+    "name": "Your Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Message",
+    "sendBtn": "Send Message",
+    "address": "Address",
+    "phone": "Phone",
+    "emailLabel": "Email",
+    "officeHours": "Office Hours"
+  },
+  "footer": {
+    "about": "About Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "contact": "Contact Us",
+    "help": "Help Center",
+    "safety": "Safety Tips",
+    "faq": "FAQ",
+    "quickLinks": "Quick Links",
+    "support": "Support",
+    "copyright": "All rights reserved",
+    "madeWith": "Made with love for the Devendra Kula Vellalar Community"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email",
+    "invalidPhone": "Please enter a valid phone number",
+    "passwordMismatch": "Passwords do not match",
+    "minLength": "Minimum length is",
+    "maxLength": "Maximum length is",
+    "serverError": "Something went wrong. Please try again.",
+    "networkError": "Network error. Please check your connection.",
+    "unauthorized": "Please login to continue",
+    "notFound": "Page not found"
+  },
+  "notifications": {
+    "profileUpdated": "Profile updated successfully",
+    "photoUploaded": "Photo uploaded successfully",
+    "interestSent": "Interest sent successfully",
+    "interestAccepted": "Interest accepted",
+    "interestDeclined": "Interest declined",
+    "messageSent": "Message sent successfully",
+    "profileSaved": "Profile saved",
+    "profileRemoved": "Profile removed from saved"
+  }
+}
