@@ -115,7 +115,8 @@ export const useAuthStore = create(
 
       // Google OAuth
       googleLogin: () => {
-        window.location.href = `${import.meta.env.VITE_API_URL?.replace('/api', '') || 'http://localhost:5000'}/api/auth/google`;
+        const apiBase = import.meta.env.VITE_API_URL?.replace('/api', '') || '';
+        window.location.href = `${apiBase}/api/auth/google`;
       },
     }),
     {
